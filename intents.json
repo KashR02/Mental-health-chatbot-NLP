@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+      ],
+      "responses": [
+        "Hey there!",
+        "Hi! It's good to see you",
+        "Hi there, what can I do for you?",
+        "Hi! I'm glad you reached out to me. How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "Stay safe and take care!",
+        "Have a lovely day!",
+        "I'm here for you. Feel free to come back at anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thank's a lot!",
+        "Ty"
+      ],
+      "responses": [
+        "Happy to help you!", 
+        "Any time!", 
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "What's up?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Who are you?", 
+        "Are you a real person?", 
+        "Tell me about yourself!", 
+        "Who am I talking to?"
+      ],
+      "responses": [
+        "My name is CompaniBot. I may be a chatbot, but I'm a good listener! \nHow was your day?",
+        "Hey! I'm CompaniBot, your friendly mental health chatbot. \nHow do you feel today?",
+        "I'm CompaniBot, your friendly mental health chatbot. \nHow are you today?",
+        "Let me introduce myself to you, my new friend: My name is CompaniBot \nHow have you feeling the past few days?"
+      ]
+    },
+    {
+      "tag": "programmer",
+      "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you",
+          "who developed you?"
+      ],
+      "responses": [
+          "I was made by Kashish Rathore,"
+      ]
+    },
+    {
+      "tag": "interest",
+      "patterns": [
+      ],
+      "responses": [
+        "Tell me more about that.",
+        "How do you feel about it?",
+        "How does that make you feel?",
+        "Please, explain to me what does that mean to you.",
+        "So, how does that impact the way you feel about yourself?",
+        "What have you learned from this state of affairs that could be useful to you in the future?",
+        "If you were to describe your emotions using a metaphor, what would they look like?",
+        "I sympathize with your feelings \nWhere are you right now in your situation?"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+      ],
+      "responses": [
+        "How long have you been feeling this way?",
+        "How long have you been having this idea?",
+        "How long have you been thinking about it?"
+      ]
+    },
+    {
+      "tag": "joy",
+      "patterns": [
+      ],
+      "responses": [
+        "I'm so glad for you!", 
+        "I'm so happy for you",
+        "Good to hear it, buddy!"
+      ]
+    },
+    
+    {
+      "tag": "Motivation",
+      "patterns": [
+        "I feel demotivated"
+      ],
+      "responses": [
+        "Motivation can be fleeting, but dedication and commitment can carry you through. What's one small step you can take right now?",
+        "Visualize the person you want to become and the life you want to live. Let that vision fuel your actions.",
+        "Remember, it's okay to have setbacks. What matters is your willingness to get back up and try again."
+     ]
+    },
+    {
+      "tag": "Recommendations",
+      "patterns": ["What should I do now?", "Can you help me", "I need support", "What should I do next?"
+      ],
+    
+      "responses": ["Watch a funny movie or TV show.",
+      "Listen to uplifting music.",
+      "Go for a walk in nature.",
+      "Call or spend time with a friend or loved one.",
+      "Engage in a hobby or activity that you enjoy.",
+      "Practice mindfulness or meditation.",
+      "Write about your feelings in a journal.",
+      "Do something kind for someone else.",
+      "Seek professional help if you're struggling to cope."
+       
+     ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+      ],
+      "responses": [
+        "Healing takes time. Don't give up and don't get discouraged.",
+        "Hang in there, everything will be fine.",
+        "No matter what happens, I'm on your side!",
+        "We can’t control the world. We can only barely control our own reactions to it. Happiness is largely a choice, not a right or entitlement.",
+        "I think happiness is a state of mind. Repeat yourself: “I choose to be happy today”."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Hear about the new restaurant called Karma? There's no menu: You get what you deserve",
+        "What do you call a fake noodle? An impasta!",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus.",
+        "I invented a new word! Plagiarism!",
+        "Did you hear about the mathematician who’s afraid of negative numbers? He’ll stop at nothing to avoid them.",
+        "A woman in labor suddenly shouted, “Shouldn’t! Wouldn’t! Couldn’t! Didn’t! Can’t!” “Don’t worry,” said the doc. “Those are just contractions.”",
+        "Did you hear about the claustrophobic astronaut? He just needed a little space.",
+        "How do you drown a hipster? Throw him in the mainstream.",
+        "Why can’t you explain puns to kleptomaniacs? They always take things literally.",
+        "What do you call a parade of rabbits hopping backwards? A receding hare-line.",
+        "What did the Buddhist say to the hot dog vendor? Make me one with everything.",
+        "What did the left eye say to the right eye? Between you and me, something smells."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <div class="sidebar__header">
+            <h2>WECARE</h2>
+        </div>
+        <div class="sidebar__content">
+            <div class="sidebar__item">Blogs</div>
+            <ul class="sidebar__list">
+                <li class="sidebar__list-item">Common Mental Health Stigmas</li>
+                <li class="sidebar__list-item">How to cope with personal</li>
+                <li class="sidebar__list-item">Mindcalming activities</li>
+            </ul>
+            
+            <!-- Added list above the profile -->
+            <ul class="sidebar__list1">
+                <li class="sidebar__list1-item">About</li>
+                <li class="sidebar__list1-item">Features</li>
+                
+            </ul>
+            <div class="sidebar__profile">
+                <div class="sidebar__profile-icon">K</div>
+                <div class="sidebar__profile-name">Kash</div>
+                <div class="sidebar__upgrade">
+                    <button>Upgrade to Pro</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__img--header">
+                    <img loading="lazy" src="{{ url_for('static', filename='images/icono-bot.png') }}"/>
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">CompaniBot</h4>
+                    <p class="chatbox__description--header">Your friendly chatbot</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div class="messages__greeting messages__item messages__item--visitor">Hello buddy.</div>
+                <div class="messages__greeting messages__item messages__item--visitor">How are you feeling today?</div>
+            </div>            
+            <div class="chatbox__footer">
+                <input type="text" placeholder="What brings you here?">
+                <button class="chatbox__send--footer send__btn">
+                    <svg style="width:20px;height:20px" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="chatbox__btn">
+            <button><img class="chatbox__btn--img" src="{{ url_for('static', filename='images/bot-btn.png') }}" /></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    $SCRIPT_ROOT = "{{ request.script_root|tojson|safe }}";
+</script>
+<script defer type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
